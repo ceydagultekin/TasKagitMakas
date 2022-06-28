@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stil.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+       
+        <title>Taş Kağıt Makas</title>
+    </head>
+    <body>
+     <div class="baslik">TAŞ-KAĞIT-MAKAS OYUNU</div>
+
+    <div class="oyun">
+        <h2 class="h2-1">Otomatik Seçilen:<span id="oto-secim"></span></h2>
+        <h2 class="h2-2">Seçiminiz:<span id="kendi-secim"></span></h2>
+        <h2 lass="h2-3">Sonuç:<span id="sonuc"></span></h2>
+
+        <button id="tas" value="TAŞ">TAŞ</button>
+        <button id="kagit" value="KAĞIT">KAĞIT</button>
+        <button id="makas" value="MAKAS">MAKAS</button>
+        <input id="cikis" type="submit" name="submit" value="ÇIKIŞ" onclick="javascript: window.close();">
+        
+    </div>
+
+    <div id="placehere1"></div>
+    <div id="placehere2"></div>
+    <div id="placehere3"></div>
+    
+
+       
+       <script src="script.js" charset="utf-8">
+            
+        </script>
+    </body>
+</html>

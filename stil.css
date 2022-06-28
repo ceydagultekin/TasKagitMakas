@@ -1,0 +1,77 @@
+body {
+    font-family: 'Kdam Thomor Pro', 'sans-serif';
+    font-size: medium;
+}
+
+.baslik {
+    font-size: x-large;
+    font-weight: 1000;
+    text-align: center;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #8fbdd3;
+}
+
+.oyun {
+    background-color: #dffcad;
+    text-align: center;
+    margin: 10px;
+    padding: 8px;
+    border: 3px solid black;
+    border-radius: 5px;
+
+}
+
+.h2-1 {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #4c8492;
+}
+
+.h2-2 {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #f09c67;
+}
+
+.h2-3 {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #f7e0a3;
+}
+
+#placehere1 {
+    text-align: center;
+}
+
+#placehere2 {
+    text-align: center;    
+}
+#placehere3 {
+    text-align: center;    
+}
+
+#tas{
+    border-radius: 3px;
+    background-color: #4c8492;
+}
+
+#kagit{
+    border-radius: 3px;
+    background-color: #f09c67;
+}
+
+#makas{
+    border-radius: 3px;
+    background-color: #f7e0a3;
+}
+
+#cikis{
+    border-radius: 3px;
+    background-color: #fffde8;
+}
